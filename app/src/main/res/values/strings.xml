@@ -2,9 +2,14 @@
     <string name="app_name">GeoQuiz</string>
     <string name="action_settings">Settings</string>
 
-    <string name="question_text">Czy John Bardeen był wynalazcą tranzystora?</string>
+    <string name="question_transistor">Czy John Bardeen był wynalazcą tranzystora?</string>
+    <string name="question_tesla">Czy Elon Musk jest CEO Tesla Motors?</string>
+    <string name="question_jobs">Czy Steve Jobs miał pochodzenie niemiecko-syryjskie?</string>
+    <string name="question_adobe">Czy Adobe jest właścicielem formatu PostScript?</string>
+    <string name="question_eastwood">Czy Clint Eastwood dostał Oskara za aktorstwo?</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
+    <string name="next_button">Next</string>
     <string name="correct_toast">Dobrze!</string>
     <string name="incorrect_toast">Źle!</string>
 </resources>

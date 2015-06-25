@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -13,11 +14,25 @@ public class QuizActivity extends AppCompatActivity {
 
     private Button mTrueButton;
     private Button mFalseButton;
+    private Button mNextButton;
+    private TextView mQuestionTextView;
+
+    private TrueFalse[] mQuestionBank = new TrueFalse[] {
+        new TrueFalse(R.string.question_transistor, true),
+        new TrueFalse(R.string.question_tesla, true),
+        new TrueFalse(R.string.question_jobs, true),
+        new TrueFalse(R.string.question_adobe, true),
+        new TrueFalse(R.string.question_eastwood, false)
+    };
+
+    private int mCurrentIndex = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
+        // 91 - mQuestionTextView (listing 2.7)
 
         mTrueButton = (Button)findViewById(R.id.true_button);
 
