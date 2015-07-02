@@ -7,9 +7,9 @@
     <string name="question_jobs">Czy Steve Jobs miał pochodzenie niemiecko-syryjskie?</string>
     <string name="question_adobe">Czy Adobe jest właścicielem formatu PostScript?</string>
     <string name="question_eastwood">Czy Clint Eastwood dostał Oskara za aktorstwo?</string>
-    <string name="true_button">True</string>
-    <string name="false_button">False</string>
-    <string name="next_button">Next</string>
+    <string name="true_button">Tak</string>
+    <string name="false_button">Nie</string>
+    <string name="next_button">Następne</string>
     <string name="correct_toast">Dobrze!</string>
     <string name="incorrect_toast">Źle!</string>
 </resources>
